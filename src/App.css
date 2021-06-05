@@ -1,0 +1,47 @@
+  
+.weather__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+}
+
+html{
+  background-color: #FBA62F;
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+.button {
+  color:white;
+  background-color: cyan;
+  display: flex;
+  margin:0 auto;
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+
+.back-icon {
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  pointer-events: none;
+}
+
